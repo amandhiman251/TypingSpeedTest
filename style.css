@@ -1,0 +1,27 @@
+.input {
+	width: 900px;
+	height: 450px;
+	border-radius: 25px;
+	resize: none;
+	outline: none;
+	padding: 10px;
+	font-size: 20px;
+}
+.test {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: #698B22;
+	word-wrap: break-word;
+}
+.start, .stop {
+	padding: 10px 10px;
+	border-radius: 25px;
+	border: 1px solid #698B22;
+	color: #698B22;
+	font-weight: bold;
+	outline: none;
+	margin: 10px;
+}
