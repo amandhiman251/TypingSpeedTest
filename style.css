@@ -1,11 +1,13 @@
 .input {
 	width: 900px;
-	height: 450px;
+	height: 250px;
 	border-radius: 25px;
 	resize: none;
 	outline: none;
 	padding: 10px;
 	font-size: 20px;
+	display : none;
+	overflow-y: scroll;
 }
 .test {
 	position: absolute;
@@ -24,4 +26,13 @@
 	font-weight: bold;
 	outline: none;
 	margin: 10px;
+}
+.input::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.input {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
